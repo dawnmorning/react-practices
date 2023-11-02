@@ -20,7 +20,7 @@ export default class extends Component {
             // console.log(this.val);
             // this.render();
             this.setState({
-              val: this.state.val + 1,
+              val: this.state.val + this.props.step,
             });
           }}
         >
