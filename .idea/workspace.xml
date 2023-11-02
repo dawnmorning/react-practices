@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1326a231-a00a-4af0-b674-0c156cb18e44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex01/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex01/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex01/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex02/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex02/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex02/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex03/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex03/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex03/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex03/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex04/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex04/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex04/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex04/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel-practice/ex04/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex00.cra/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex01/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/public/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex02/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/public/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex03/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex04/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex05/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex06/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex07/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/01/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/01/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/03/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/03/Contents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/03/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/03/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/04/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/04/Contents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/04/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/04/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/05/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/05/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/Clock01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/Clock02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/Contents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/06/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/07/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/07/Clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/07/Contents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/07/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/src/07/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/ex08/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/public/_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/01/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/01/FoodList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/01/FoodListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/01/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/02/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/02/FoodList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/02/FoodListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/02/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/03/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/03/FoodList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/03/FoodListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/03/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/04/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/04/MyComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/src/04/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/ex01/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/config/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/config/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/public/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/public/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/Email.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/Email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/Emaillist.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/Emaillist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/RegisterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/emaillist/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/json/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/scss/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/scss/Email.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/scss/Emaillist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/scss/RegisterForm.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/frontend/src/scss/SearchBar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emaillist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/config/babel.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/config/babel.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/public/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/public/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/src/Kanbanboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/src/Kanbanboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/src/asset/json/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanboard/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanboard/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/public/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex01/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/dev-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/public/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/public/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex02/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex03/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/src/assets/css/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/src/assets/css/Common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex04/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/public/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/assets/css/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/assets/css/Common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/assets/scss/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex05/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/public/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/assets/css/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/assets/css/Common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/assets/scss/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack-practice/ex06/webpack.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Xb4bpPpf5SMI0pb5ecrjKqKKUQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1326a231-a00a-4af0-b674-0c156cb18e44" name="Default Changelist" comment="" />
+      <created>1698884521806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698884521806</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,18 +1,18 @@
-import React from "react";
-import "./assets/scss/App.scss";
-import SearchBar from "./SearchBar";
-import Emaillist from "./Emaillist";
-import data from "./assets/json/data";
-import RegisterForm from "./Registerform";
+import React from 'react';
+import './assets/scss/App.scss';
+import RegisterForm from './RegisterForm';
+import SearchBar from './SearchBar';
+import Emaillist from './Emaillist';
+import data from './assets/json/data';
 
 function App() {
-  return (
-    <div id={"App"}>
-      <RegisterForm />
-      <SearchBar />
-      <Emaillist emails={data} />
-    </div>
-  );
+    return (
+        <div id={'App'}>
+            <RegisterForm />
+            <SearchBar />
+            <Emaillist emails={data} />
+        </div>
+    );
 }
 
-export { App };
+export {App};
