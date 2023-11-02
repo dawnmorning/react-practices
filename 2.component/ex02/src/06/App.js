@@ -1,19 +1,30 @@
-import React from 'react';
+import React from "react";
+import "./assets/scss/App.scss";
+
+// import Header from './Header';
+import styled from "styled-components";
+
+const StyledH1 = styled.h1`
+  width: 180px;
+  text-align: center;
+  font-size: 12px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #999;
+  color: #1144fe;
+  background-color: #cdc1ce;
+`;
+
+const StyledDiv = styled.div`
+  text-align: center;
+`;
 
 function App() {
-    const h1Style = {
-        width: 200,
-        height: '50px',
-        padding: 20,
-        color: '#111',
-        backgroundColor: '#eeff99'
-    };
-
-    return (
-        <div id={'App'}>
-            <h1 style={h1Style}>inline styling</h1>
-        </div>
-    );
+  return (
+    <StyledDiv id={"App"}>
+      <StyledH1>CSS in JS: Styled Component</StyledH1>
+    </StyledDiv>
+  );
 }
 
-export {App};
+export { App };
