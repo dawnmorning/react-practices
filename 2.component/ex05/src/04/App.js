@@ -33,9 +33,8 @@ export default function App() {
 
   return (
     <>
-      <span>{ticks}</span>
       <Clock
-        message={"ex05: useEffect Hook example"}
+        message={`ex05: useEffect Hook example : ${ticks}`}
         hours={hour}
         minutes={minute}
         seconds={second}
