@@ -15,7 +15,6 @@ export default function App() {
       const times = new Date().toLocaleTimeString();
       let currentHour = parseInt(times.slice(3, 5));
       if (times.slice(0, 2) === "오후" && currentHour !== 12) {
-        // 오후 12시를 확인합니다.
         currentHour += 12;
       }
       setHour(currentHour.toString().padStart(2, "0"));
