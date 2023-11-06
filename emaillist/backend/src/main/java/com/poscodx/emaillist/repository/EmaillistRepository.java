@@ -1,0 +1,21 @@
+package com.poscodx.emaillist.repository;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.poscodx.emaillist.vo.EmailListVo;
+
+@Repository
+public class EmaillistRepository {
+	@Autowired
+	private SqlSession sqlSession;
+
+	public List<EmailListVo> findall() {
+		return sqlSession.selectList("emaillist.findAll");
+	}
+	
+	
+}
