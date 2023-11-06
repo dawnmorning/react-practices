@@ -18,7 +18,6 @@ export default function App() {
         currentHour += 12;
       }
       setHour(currentHour.toString().padStart(2, "0"));
-
       let currentMinute = parseInt(times.slice(6, 8));
       if (currentMinute < 10) {
         setMinute(currentMinute.toString().padStart(2, "0"));
