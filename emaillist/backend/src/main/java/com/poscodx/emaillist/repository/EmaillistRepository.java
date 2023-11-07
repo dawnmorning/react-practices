@@ -13,8 +13,8 @@ public class EmaillistRepository {
 	@Autowired
 	private SqlSession sqlSession;
 
-	public List<EmailListVo> findall() {
-		return sqlSession.selectList("emaillist.findAll");
+	public List<EmailListVo> findall(String keyword) {
+		return sqlSession.selectList("emaillist.findAll",keyword);
 	}
 
 	public int insert(EmailListVo emailListVo) {

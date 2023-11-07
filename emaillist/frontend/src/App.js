@@ -7,19 +7,10 @@ import Emaillist from "./Emaillist";
 
 function App() {
   const [emails, setEmails] = useState([]);
-  const searchEmail = (keyword) => {
-    const newEmails = data.filter(
-      (email) =>
-        email.firstName.indexOf(keyword) !== -1 ||
-        email.lastName.indexOf(keyword) !== -1 ||
-        email.email.indexOf(keyword) !== -1
-    );
-    setEmails(newEmails);
-  };
 
-  const getEmail = async () => {
+  const getEmail = async (keyword) => {
     try {
-      const res = await fetch(`/api`, {
+      const res = await fetch(`/api?kw=${keyword ? keyword : ""}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -29,6 +20,7 @@ function App() {
       const data = await res.json();
       console.log(data);
       console.log("fetch");
+      setEmails(data.data);
       if (!res.ok) {
         throw new Error(`${res.status} ${res.statusText}`);
       }
@@ -41,14 +33,30 @@ function App() {
   };
 
   const addEmail = async (email) => {
-    fetch("/api", {
-      method: "post",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(email),
-    });
+    try {
+      const response = await fetch("/api", {
+        method: "post",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(email),
+      });
+
+      if (!response.ok) {
+        throw new Error(`${response.status} ${response.statusText}`);
+      }
+
+      const json = await response.json();
+
+      if (json.result !== "success") {
+        throw new Error(`${json.result} ${json.message}`);
+      }
+
+      setEmails([json.data, ...emails]);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   useEffect(() => {
@@ -58,7 +66,7 @@ function App() {
   return (
     <div id={"App"}>
       <RegisterForm addEmail={addEmail} />
-      <SearchBar searchEmail={searchEmail} />
+      <SearchBar fetchEmails={getEmail} />
       {emails === null ? null : <Emaillist emails={emails} />}
     </div>
   );
