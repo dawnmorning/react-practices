@@ -12,7 +12,7 @@ module.exports = function (env) {
     module: {
       rules: [
         {
-          test: /\.js/i,
+          test: /\.jsx?$/i,
           exclude: /node_modules/,
           use: "babel-loader",
         },
@@ -34,6 +34,10 @@ module.exports = function (env) {
           type: "asset/resource",
         },
       ],
+    },
+    resolve: {
+      // Webpack이 .js와 .jsx 파일을 모듈로 해석하도록 확장자를 추가합니다.
+      extensions: [".js", ".jsx"],
     },
     devServer: {
       host: "0.0.0.0",
