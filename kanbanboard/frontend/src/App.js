@@ -1,13 +1,13 @@
 import React from "react";
-
-import Kanbanboard from "./Kanbanboard";
+import "./assets/css/App.css";
+import KanbanBoard from "./KanbanBoard";
 
 function App() {
   return (
-    <div>
-      <Kanbanboard />
+    <div id={"App"} className={"App"}>
+      <KanbanBoard />
     </div>
   );
 }
 
-export { App };
+export default App;
