@@ -32,4 +32,8 @@ public class TaskRepository {
 		}}) == 1;
 
 	}
+
+	public Boolean deleteTask(Long no) {
+		return sqlSession.delete("task.deleteTask") == 1;
+	}
 }
