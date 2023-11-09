@@ -26,13 +26,16 @@
 
    - 접속 테스트
      `ssh -i mykey.pem dawn@192.168.0.143`
+   - 접속 환경 설정
+     - `~/.ssh/environment`
+     - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/local/poscodx2023/java/bin:/usr/local/poscodx2023/git/bin:/usr/local/poscodx2023/maven/bin:/usr/local/poscodx2023/mariadb/bin:/root/bin`
 
    2. deploy: Publish Over SSH 플러그인 (Jenkins)
 
-   - `Publish Over Plugin` 설치
-   - `jenkins 관리 / system` 에서 확인
+   - `Publish Over SSH` 설치
+   - `Dashboard > Jenkins 관리 > System` 에서 확인
    - `SSH Servers` 등록: `springboot-publish-server`
    - 프로젝트의 빌드 후 조치(post-build action)의 `Send build artifacts over SSH` 설정
    - `emaillist.jar` : transfer
-
-   - `java -Dspring.profile.active=production -jar /usr/local/poscodx2023/springboot-apps/emaillist07/emaillist.jar`
+     - `java -Dspring.profile.active=production -jar /usr/local/poscodx2023/springboot-apps/emaillist07/emaillist.jar`
+   - launch.sh : tranfer + execution
