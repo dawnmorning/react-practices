@@ -8,20 +8,20 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.16</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.poscodx</groupId>
 	<artifactId>emaillist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<java.version>17</java.version>
 	</properties>
-
+	
 	<dependencies>
 		<!-- Spring Boot Dev Tools: Live Reload -->
 		<dependency>
@@ -34,35 +34,31 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-		<!-- Spring Boot AOP Starter 필요 X -->
-
-		<!-- Spring Boot Validation Starter 필요 X -->
-
-		<!-- file upload 필요 X-->
-
+		
 		<!-- MyBatis Starter -->
 		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>2.2.0</version>
 		</dependency>
-
+		
+		<!-- Thymeleaf Starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+				
 		<!-- lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-
-		<!-- mariadb jdbc driver -->
+		
+		<!-- mariadb jdbc driver -->		
 		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
+		    <groupId>org.mariadb.jdbc</groupId>
+		    <artifactId>mariadb-java-client</artifactId>
 		</dependency>
-
-		<!-- jstl 필요 없음-->
-
-		<!-- Tomcat Jasper 필요 없음 -->
 
 		<!-- Spring Boot Test Integration -->
 		<dependency>
@@ -70,33 +66,52 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- Thymeleaf Starter -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<finalName>emaillist</finalName>
 		<plugins>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<excludes>
 						<exclude>
-							<groupId>org.springframework.boot</groupId>
-							<artifactId>spring-boot-devtools</artifactId>
-						</exclude>
-						<exclude>
-							<!-- lombok -->
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+						</exclude>
+						<exclude>
+							<groupId>org.springframework.boot</groupId>
+							<artifactId>spring-boot-devtools</artifactId>		
 						</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<executable>npm</executable>
+					<workingDirectory>../frontend</workingDirectory>
+					<arguments>
+						<argument>run</argument>
+						<argument>build:fe</argument>
+					</arguments>
+					<environmentVariables>
+					</environmentVariables>
+				</configuration>
+			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
@@ -114,10 +129,11 @@
 									<directory>src/main/resources/script</directory>
 								</resource>
 							</resources>
-						</configuration>
+						</configuration>						
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>			
+						
 		</plugins>
-	</build>
+	</build>				
 </project>
