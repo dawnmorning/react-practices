@@ -6,8 +6,8 @@
 ### ex04: React Router Basic V: Link VS NavLink
 ### ex05: Styling &amp; Semantic Markup
 ### ex06: Composition
-### ex07: Nesting Routes
-### ex08: BrowserRouter & SSR
+### ex07: useRoutes
+### ex08: Nesting Routes
 
 ### Install Dependency
 1. react-router: 6.0.x(2021.6 beta)
