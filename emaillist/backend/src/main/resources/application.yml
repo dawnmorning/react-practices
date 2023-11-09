@@ -2,12 +2,12 @@
 spring:
    application:
       name: emaillist
-   
-   # devtools - live reload
-   devtools:
-      livereload:
-         enabled: true
-            
+   profiles:
+      active: development
+      
+---
+# common spring boot configuration
+spring:
    #mvc
    mvc:
       # Path pattern used for static resources
@@ -24,31 +24,10 @@ spring:
       mode: HTML5
       suffix : .html
       cache : false
-      
-  
-   #datasource
-   datasource:
-      driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.0.143:3307/webdb?charset=utf8
-      username: webdb
-      password: webdb
-      hikari:
-         minimum-idle: 10
-         maximum-pool-size: 20
-
 # mybatis
 mybatis:
    config-location: classpath:mybatis/configuration.xml
-   
-# server
-server:
-   port: 8080
-   servlet:
-      context-path: /
-      encoding:
-         charset: utf-8
-         enabled: true    
-         
+
 # logging
 logging:
    pattern:
@@ -66,4 +45,51 @@ logging:
       com:
          poscodx:
             emaillist:
-               exception: ERROR      
+               exception: ERROR   
+---
+
+# development profile: spring boot configuration
+spring:
+   config:
+      activate:
+         on-profile: development
+         
+   # devtools - live reload
+   devtools:
+      livereload:
+         enabled: true
+       
+   #datasource
+   datasource:
+      driver-class-name: org.mariadb.jdbc.Driver
+      url: jdbc:mariadb://192.168.0.143:3307/webdb?charset=utf8
+      username: webdb
+      password: webdb
+      hikari:
+         minimum-idle: 10
+         maximum-pool-size: 20
+# server
+server:
+   port: 8080
+   servlet:
+      context-path: /
+      encoding:
+         charset: utf-8
+         enabled: true    
+         
+---
+
+# production profile: spring boot configuration
+spring:
+   config:
+      activate:
+         on-profile: production
+
+# server
+server:
+   port: 8088
+   servlet:
+      context-path: /
+      encoding:
+         charset: UTF-8
+         enabled: true
