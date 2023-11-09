@@ -59,7 +59,7 @@ const TaskList = ({ cardNo }) => {
   return (
     <div>
       <ul>
-        {tasks.map((task) => (
+        {tasks?.map((task) => (
           <Task key={task.no} no={task.no} name={task.name} done={task.done} />
         ))}
       </ul>
@@ -69,7 +69,7 @@ const TaskList = ({ cardNo }) => {
         className={styles.TaskList__add_task}
         value={newTaskName}
         onChange={handleInputChange}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyPress}
       />
     </div>
   );

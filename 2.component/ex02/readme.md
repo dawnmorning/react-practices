@@ -22,6 +22,8 @@ ex02: Component Styling
 
 6) CSS in JS: Styled Component
 7) React Modal
+    - 설치
+        $ npm i react-modal
 8) Modal: Material UI
 
 ====================================================================================

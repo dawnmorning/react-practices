@@ -68,7 +68,7 @@ public class ApiController {
 	public ResponseEntity<JsonResult> deleteTask(@PathVariable("no") Long no) {
 		return ResponseEntity
 				.status(HttpStatus.OK)
-				.body(JsonResult.success(taskRepository.deleteTask(no));
+				.body(JsonResult.success(taskRepository.deleteTask(no)));
 	}
 
 }

@@ -31,9 +31,9 @@
 	  	]]>	
 	</update>	
 	
-	<delete id='deleteTask'>
+	<delete id='deleteTask' parameterType='long'>
 		<![CDATA[
-			delete from task 
+			delete task 
 			 where no=#{no}	
 	  	]]>	
 	</delete>

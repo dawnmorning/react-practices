@@ -1,19 +1,18 @@
-import React from 'react';
-import SiteLayout from "../layout/SiteLayout";
-import styles1 from '../assets/scss/component/About.scss';
-import styles2 from '../assets/scss/component/about/Navigation.scss';
+import React from "react";
+import styles from "../assets/scss/component/About.scss";
+import { useNavigate } from "react-router";
 
 export default function About() {
-    return (
-        <SiteLayout>
-            <nav className={styles2.Navigation}>
-                <a href={'/about/kickscar'}>Kickscar</a>
-                <span/>
-                <a href={'/about/location'}>Location</a>
-            </nav>
-            <div className={styles1.About}>
-                <h2>kickscar 입니다.</h2>
-            </div>
-        </SiteLayout>
-    );
+  const navigate = useNavigate();
+
+  setTimeout(() => {
+    // window.location.href = "/error";
+    navigate("/error");
+  }, 3000);
+
+  return (
+    <div className={styles.About}>
+      <h2>kickscar 입니다.</h2>
+    </div>
+  );
 }
