@@ -84,15 +84,6 @@ spring:
    config:
       activate:
          on-profile: production
-
-# server
-server:
-   port: 8088
-   servlet:
-      context-path: /
-      encoding:
-         charset: UTF-8
-         enabled: true
          
    #datasource
    datasource:
@@ -103,3 +94,11 @@ server:
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20
+# server
+server:
+   port: 8088
+   servlet:
+      context-path: /
+      encoding:
+         charset: UTF-8
+         enabled: true   
