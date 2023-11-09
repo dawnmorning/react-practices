@@ -97,30 +97,26 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.0.0</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
 				<executions>
 					<execution>
+						<id>copy-resources</id>
+						<phase>validate</phase>
 						<goals>
-							<goal>exec</goal>
+							<goal>copy-resources</goal>
 						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/resources/script</directory>
+								</resource>
+							</resources>
+						</configuration>
 					</execution>
 				</executions>
-				<configuration>
-					<executable>npm</executable>
-					<!-- 현재는 /backend -->
-					<workingDirectory>../frontend</workingDirectory>
-					<arguments>
-						<argument>run</argument>
-						<argument>build:fe</argument>
-					</arguments>
-					<environmentVariables>
-						
-					</environmentVariables>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
